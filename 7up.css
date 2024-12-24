@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+   padding: 0; 
+   font-family: "Open Sans", sans-serif;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: rgb(247, 154, 131);
+    position:fixed;
+    top: 0;  
+    border: 1px solid #fff;
+    z-index: 1;
+    
+}
+.logo{
+    width:50%;
+    height: 100px;
+    margin-left: 40px;
+    background: rgb(247, 154, 131);   
+}
+.menu{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.one,.two,.three{
+    color: #fff;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 16px;
+    height: 73px;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 23px;
+}
+.apps-logo{
+    margin-left: -26px;
+    width: 276px;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.logo-img{
+    width: 74px;
+    height: 68px;
+    margin-top: 17px;
+   
+}
+.main-body{
+    width: 100%;
+
+}
+.firstpage{
+    background-image:url('7up-img/background7up.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+   
+} 
+.fist-text{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-50px, -180px);
+    color: #fff;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 90px;
+}
+.fist-but{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    color: #fff;
+    transform: translate(-50px, 90px);
+    width: 122px;
+    height: 39px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-color: #fff;
+    border-radius: 100px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.second-page{
+    background-image:url('7up-img/7up-background2.webp');
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: -22px;
+}
+.green-sp{  
+    height: 234px;
+    width: 653px;
+    background: rgba(0, 100, 0, 0.7);
+    text-align: center;
+    position: absolute;
+    top: 1000px;
+    left: 454px;
+    border-radius: 341px;
+    color: #fff;
+}
+.fist-line,.s-line{   
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 5px;
+}  
+.green-but{
+    border-color: #fff;
+    border-radius: 100px; 
+    border: 1px solid #fff; width: 122px;
+    padding: 7px;
+    padding-left: 21px;
+    padding-right: 21px;
+    background: transparent;
+    cursor: pointer;
+}
+.thred-page{
+    background-image: url('7up-img/7up-background3.webp');
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: -22px;
+}
+.green-sp1{
+    height: 234px;
+    width: 653px;
+    background: rgba(0, 100, 0, 0.7);
+    text-align: center;
+    position: absolute;
+    top: 1750px;
+    left: 454px;
+    border-radius: 341px;
+    color: #fff;
+}
+.line-one,.line-two{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 5px;
+  }  
+  .green-but2{
+    border-color: #fff;
+    border-radius: 100px; 
+    border: 1px solid #fff; width: 122px;
+    padding: 7px;
+    padding-left: 21px;
+    padding-right: 21px;
+    background: transparent;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 139px;
+    position: relative;
+    background: #3e3e3e;
+    margin-top: -69px;
+}
+.footer-text{
+    word-spacing: 10px;
+    position: absolute;
+    left: 281px;
+    color: #fff;
+}
+.footer-text1{
+    margin-top: 68px;
+    left: 442px;
+    position: absolute;
+    color: #fff;
+
+}
+              
+
+
+
+
+
+
+
+
+    
+  
+
+
+    
+
+
+
+
+
+        
+
